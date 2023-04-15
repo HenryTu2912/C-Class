@@ -1,0 +1,9 @@
+# ninja log v5
+7	73	7032972947550057	CMakeFiles/C_Language.dir/bitmap/App.c.obj	bd355841c6dd2ca3
+0	74	7032972947560053	CMakeFiles/C_Language.dir/main.c.obj	96a2b6fe0a3502ff
+10	95	7032972947770143	CMakeFiles/C_Language.dir/bitmap/bitmap.c.obj	23ab569fd3b6c195
+2	68	7032973116649481	C_Language.exe	5786526cb40bc56c
+2	67	7032974613806231	CMakeFiles/C_Language.dir/bitmap/bitmap.c.obj	23ab569fd3b6c195
+67	131	7032974614416236	C_Language.exe	5786526cb40bc56c
+1	69	7032980683158499	CMakeFiles/C_Language.dir/bitmap/bitmap.c.obj	23ab569fd3b6c195
+69	136	7032980683789715	C_Language.exe	5786526cb40bc56c
