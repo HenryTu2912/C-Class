@@ -11,7 +11,7 @@
 #define FALSE 0
 
 #define BYTE unsigned char
-#define WORD unsigned char
+#define WORD unsigned short
 #define DWORD unsigned int
 
 #pragma pack(push) // Use to store the default byte alignment
@@ -40,7 +40,7 @@ typedef struct _bitmap_header
 typedef struct _pixel
 {
     //Strangely, blue comes first in the pixel
-    BYTE bBlue, bGreen, bRed
+    BYTE bBlu, bGrn, bRed;
 } PIXEL;
 
 typedef struct _image

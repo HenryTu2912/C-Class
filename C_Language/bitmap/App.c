@@ -13,9 +13,21 @@ int main(int argc, char ** argv)
     IMAGE * image = (IMAGE *) malloc(sizeof(IMAGE));
     readImage(image,in);
     printHeader(image);
-    IMAGE resizeOne = resizeImage(image, 100, 100);
-    writeImage(&resizeOne, out);
-    free(&resizeOne);
+    //Resize
+//    IMAGE resizeOne = resizeImage(image, 100, 100);
+//    writeImage(&resizeOne, out);
+//    freeImage(&resizeOne);
+
+    //Crop
+//    IMAGE cropOne = crop(image, 100, 100, 90, 90);
+//    writeImage(&cropOne, out);
+//    freeImage(&cropOne);
+
+    //Rotate
+    IMAGE rotateImg = rotate(image, 0.1);
+    writeImage(&rotateImg, out);
+    freeImage(&rotateImg);
+
     freeImage(image);
     free(image);
     fclose(in);
